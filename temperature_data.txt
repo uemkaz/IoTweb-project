@@ -1,0 +1,6 @@
+get_time: 2024-02-13 21:26:33 JST, temperature: 21.0
+get_time: 2024-02-13 21:26:41 JST, temperature: 22.6
+get_time: 2024-02-13 21:26:43 JST, temperature: 22.9
+get_time: 2024-02-13 21:26:45 JST, temperature: 22.9
+get_time: 2024-02-13 21:26:47 JST, temperature: 22.9
+get_time: 2024-02-13 21:26:49 JST, temperature: 22.6
