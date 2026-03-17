@@ -36,7 +36,7 @@ plt.tight_layout()
 
 # 画像をBase64の文字列に変換
 png_buf = io.BytesIO()
-plt.savefig(png_buf, format="png", dpi=180)
+plt.savefig(png_buf, format="png", dpi=90)
 plt.close()
 image_base64 = base64.b64encode(png_buf.getvalue()).decode('utf-8')
 
@@ -87,13 +87,36 @@ html_bottom = """" alt="温度変化グラフ">
             </div>
         </div>
 
-        <div class="card">
-            <h2>4. 製作したソースコード</h2>
-            <ul>
-                 <p>準備中</p>
-            </ul>
-        </div>
-    </div>
+       <div class="card">
+    <h2>4. 製作したソースコード</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/uemkaz/IoTweb-project" target="_blank" rel="noopener noreferrer">
+                GitHubリポジトリ（IoTweb-project）
+            </a>
+        </li>
+    </ul>
+</div>
+       <div class="card">
+    <h2>5. 作成した関連ブログ</h2>
+    <ul>
+        <li>
+            <a href="https://www.48v.me/~uemkaz/blog/blog01" target="_blank" rel="noopener noreferrer">
+                HACCPと飲食店の冷蔵庫の温度管理
+            </a>
+        </li>
+    </ul>
+<ul>
+        <li>
+            <a href="https://www.48v.me/~uemkaz/blog/blog02" target="_blank" rel="noopener noreferrer">
+                冷蔵庫の温度管理システムの既存製品
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+
 </body>
 </html>
 """
