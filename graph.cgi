@@ -82,44 +82,40 @@ html_top = """<!DOCTYPE html>
             <div class="image-container">
                 <img class="graph" src="data:image/png;base64,"""
 
-# HTMLの後半部分
+# HTMLの後半部分（整理版）
 html_bottom = """" alt="温度変化グラフ">
             </div>
         </div>
 
-       <div class="card">
-    <h2>4. 製作したソースコード</h2>
-    <ul>
-        <li>
-            <a href="https://github.com/uemkaz/IoTweb-project" target="_blank" rel="noopener noreferrer">
-                GitHubリポジトリ（IoTweb-project）
-            </a>
-        </li>
-    </ul>
-</div>
-       <div class="card">
-    <h2>5. 作成した関連ブログ</h2>
-    <ul>
-        <li>
-            <a href="https://www.48v.me/~uemkaz/blog/blog01" target="_blank" rel="noopener noreferrer">
-                HACCPと飲食店の冷蔵庫の温度管理
-            </a>
-        </li>
-    </ul>
-<ul>
-        <li>
-            <a href="https://www.48v.me/~uemkaz/blog/blog02" target="_blank" rel="noopener noreferrer">
-                冷蔵庫の温度管理システムの既存製品
-            </a>
-        </li>
-    </ul>
+        <div class="card">
+            <h2>4. 製作したソースコード</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/uemkaz/IoTweb-project" target="_blank" rel="noopener noreferrer">
+                        GitHubリポジトリ（IoTweb-project）
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-</div>
+        <div class="card">
+            <h2>5. 作成した関連ブログ</h2>
+            <ul>
+                <li>
+                    <a href="https://www.48v.me/~uemkaz/blog/blog01" target="_blank" rel="noopener noreferrer">
+                        HACCPと飲食店の冷蔵庫の温度管理
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.48v.me/~uemkaz/blog/blog02" target="_blank" rel="noopener noreferrer">
+                        冷蔵庫の温度管理システムの既存製品
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-
-</body>
+    </div> </body>
 </html>
 """
-
 # 全てを結合して出力
 print(html_top + image_base64 + html_bottom)
