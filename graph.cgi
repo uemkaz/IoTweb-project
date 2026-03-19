@@ -67,7 +67,7 @@ html_top = """<!DOCTYPE html>
             <h2>2. システム構成</h2>
             <p>以下の技術スタックで構築・運用しています。センサーを用いたハードウェアからのデータ取得を起点に、サーバーサイドでのデータ処理からフロントエンドのUI構築まで、Webアプリケーションに必要な要素を一貫して設計・実装しました。</p>
             <ul>
-                <li><strong>フロントエンド:</strong> HTML5, CSS3 </li>
+                <li><strong>フロントエンド:</strong> HTML, CSS </li>
                 <li><strong>バックエンド:</strong>Python 3, CGI</li>
                 <li><strong>インフラ:</strong> Webサーバー（Apache)</li>
             </ul>
